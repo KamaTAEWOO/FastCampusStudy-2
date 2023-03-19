@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">웹툰앱</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="BackToHistory">마지막 시점 돌아가기</string>
+    <string name="change_tab_name">탭 이름 바꾸기</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">chapter6</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_notification_channel_id"><![CDATA[<string name=\"default_notification_channel_id\">default_notification_channel_id</string>]]></string>
+    <string name="fcm_server_key">test</string>
+</resources>
