@@ -2,7 +2,7 @@
 
 ## 2023-03-13 ~ 2023-03-19
 
-### 웹툰앱
+### 웹툰앱 (chapter1)
 1. 구현기능
  - WebView
  - ViewPager2
@@ -27,7 +27,7 @@
 
 ======================================================
 
-### 녹음앱
+### 녹음앱 (chapter2)
 1. 구현기능
  - MediaPlayer
  - MediaRecorder
@@ -38,7 +38,7 @@
 
 ======================================================
 
-### 뉴스앱
+### 뉴스앱 (chapter6)
 1. 구현 기능
  - Retrofit
   - Ticxml (XML Parser과 함께 Parsing 할 수 있는 라이브러리)
@@ -57,7 +57,7 @@
  
  ===========================================================
 
-### 채팅앱
+### 채팅앱 (chapter6)
 1. 구현기능
  - Firebase Realtime Database
  - Firebase Authentication
@@ -68,7 +68,24 @@
 
 ==============================================================
 
- ### 대동맛집도
+### 날씨앱 (chapter7)
+1. 구현 기능
+ - Location
+ - Foreground Service(Background는 무시되거나 배터리 제약)
+ - Android Widget
+ - 공공데이터포털
+2. 몰랐던 것
+ - 안드로이드 보안이 높아져 권한 목록 추가(대략적인 위치, 정확한 위치)
+ - Background 위치 권한 (widget에 사용)
+ - Fused Location Previder API를 사용하면 좀 더 쉽게 Location을 가지고 올 수 있음.
+ - Https를 사용하려면 따로 Manifest에서 권한을 설정해야함.
+ - 앱 widget을 업데이트하기 위해 onUpdate()를 호출한다
+ - 홈 화면에 widget을 넣으면 onUpdate() 함수가 호출 됨
+ - Repository -> 데이터 저장소 / 데이터를 가져오는 클래스 파일을 뜻함.
+ 
+=============================================================
+
+ ### 대동맛집도 (chapter8)
  1. 구현기능
   - navermap
   - naver open api
